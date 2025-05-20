@@ -130,3 +130,38 @@ img {
 .sitenav__link:active {
   color: var(--blue-active);
 }
+
+
+/* Hero */
+.hero-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.hero-content {
+  max-width: 470px;
+}
+
+.hero-title {
+  margin: 0 0 16px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.hero-text {
+  margin: 0 0 16px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+iframe {
+  border-radius: 5px;
+}
